@@ -1,0 +1,262 @@
+body {
+    animation: fade-in 1.2s;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(242,245,245);
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+@keyframes fade-in{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+
+/* ----------- tekst -------------------------------------*/
+
+h1{
+font-family: 'Montserrat', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+    text-align: center;
+    color: black;
+}
+
+
+/* ----------- kader -------------------------------------*/
+
+.kaderlinks{
+    height: 100vh;
+    width: 2vw;
+    
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    
+    background-color: white;
+    z-index: 100000000;
+}
+
+.kaderrechts{
+    height: 100vh;
+    width: 2vw;
+    
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    
+    background-color: white;
+    z-index: 100000000;
+}
+
+.kadertop{
+    height: 2vw;
+    width: 100vw;
+    
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    
+    background-color: white;
+    z-index: 100000000;
+}
+
+.kaderbottom{
+    height: 2vw;
+    width: 100vw;
+    
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    
+    background-color: white;
+    z-index: 100000000;
+}
+
+
+/* ----------- hover lijn -------------------------------------*/
+
+/* Slide In, Slide Off */
+.sliding-u-l-r-l {
+    position: relative;
+    padding-bottom: 1px;
+}
+.sliding-u-l-r-l:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background .6s ease;
+}
+.sliding-u-l-r-l:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: white;
+    transition: width .4s ease;
+}
+.sliding-u-l-r-l:hover:before {
+    width: 100%;
+    background: white;
+    transition: width .4s ease;
+}
+.sliding-u-l-r-l:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+/* ----------- navigatie -------------------------------------*/
+
+/* ----------- mouse -------------------------------------*/
+
+/* ----------- logo -------------------------------------*/
+
+
+/* ----------- section1 -------------------------------------*/
+.section1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+}
+
+.section2{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    position: relative;
+    display: block;
+}
+
+
+.foto1{    
+    width: 100vw;
+    height: 100vh;
+    
+    background-size: cover;
+}
+
+.section1 img{
+    object-fit: cover;
+}
+
+.logo{
+    position: absolute;
+    top: 0px;
+    height: 30vh;
+    top: 35vh;
+    left: 32.5vw;
+    
+    display: flex;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    
+}
+/* ----------- section2 -------------------------------------*/
+
+
+
+.container{
+    position: absolute;
+    width: 60vw;
+    height: 60vh;
+    
+    top: 20vh;
+    left: 20vw;
+}
+
+.container2{
+    position: relative; 
+    display: flex;
+    height: 60vh;
+}
+
+.inner-container1{
+    display: flex;
+    align-self: center;
+    position: absolute;
+    left: 0px;
+}
+
+.inner-container2{
+    display: flex;
+    align-self: center;
+    position: absolute;
+    right: 0px;
+}
+
+p{
+    width: 20vw;
+    font-family: sans-serif;
+    color: black;
+    
+}
+
+
+.inner-container2 p{
+    width: 25vw;
+    line-height: 1.2em;
+    padding-bottom: 20px;
+}
+
+.info_tekst{
+    float: right;
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.8px;
+}
+
+.news_tekst{
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.8px;
+    color:rgb(20,20,20);
+}
+
+.section2{
+    font-weight: bolder;
+    letter-spacing: 2px;
+    
+}
+
+.section2 h1{
+    
+    padding-bottom: 50px;
+    letter-spacing: 4px;
+}
+
+.section2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    scroll-behavior: smooth;
+}
+
+.pijl{
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: 5vw;
+    left: 48.5vw;
+}
+
+.pijl a{
+    font-size: 5vw;
+    scroll-behavior: smooth;
+}
+
+.pijl:hover{
+    text-decoration: line-through;
+}

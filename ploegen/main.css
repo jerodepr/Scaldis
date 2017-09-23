@@ -1,0 +1,277 @@
+body {
+    animation: fade-in 1.2s;
+    max-width: 100%;
+  overflow-x: hidden;
+    background-color: rgb(242,245,245);
+}
+
+@keyframes fade-in{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+
+/* ----------- tekst -------------------------------------*/
+
+h1{
+font-family: 'Montserrat', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+    text-align: center;
+    color: rgba(255,255,255,1);
+}
+
+
+/* ----------- kader -------------------------------------*/
+
+.kaderlinks{
+    height: 100vh;
+    width: 2vw;
+    
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    
+    background-color: white;
+    z-index: 100000000;
+}
+
+.kaderrechts{
+    height: 100vh;
+    width: 2vw;
+    
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    
+    background-color: white;
+    z-index: 100000000;
+}
+
+.kadertop{
+    height: 2vw;
+    width: 100vw;
+    
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    
+    background-color: white;
+    z-index: 100000000;
+}
+
+.kaderbottom{
+    height: 2vw;
+    width: 100vw;
+    
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    
+    background-color: white;
+    z-index: 100000000;
+}
+
+/* ----------- hover lijn -------------------------------------*/
+
+/* Slide In, Slide Off */
+.sliding-u-l-r-l {
+    position: relative;
+    padding-bottom: 1px;
+}
+.sliding-u-l-r-l:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background .6s ease;
+}
+.sliding-u-l-r-l:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: white;
+    transition: width .4s ease;
+}
+.sliding-u-l-r-l:hover:before {
+    width: 100%;
+    background: white;
+    transition: width .4s ease;
+}
+.sliding-u-l-r-l:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+/* ----------- navigatie -------------------------------------*/
+.container figure {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2.s ease-in-out;
+}
+.container figure:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+/* ----------- mouse -------------------------------------*/
+
+/* ----------- logo -------------------------------------*/
+
+
+/* ----------- section1 -------------------------------------*/
+.section1{
+    background-color: rgb(242,245,245);
+    width: 98vw;
+    height: 96vh;
+    
+    position: fixed;
+    left: 1vw;
+    top: 2vh;
+}
+
+
+.container div{
+    width: 25%;
+    height: 48vh;
+    
+    background-position: center;
+    background-size: cover;
+    
+    position: relative;
+    float: left;
+}
+
+.foto1{    
+    background-image: url(fotos/foto1.1.jpg);
+}
+
+.foto2{
+    background-image: url(fotos/foto2.1.jpg);
+}
+
+.foto3{
+    background-image: url(fotos/foto3.1.jpg);
+}
+
+.foto4{    
+    background-image: url(fotos/foto1.1.jpg);
+}
+
+.foto5{
+    background-image: url(fotos/foto2.1.jpg);
+}
+
+.foto6{
+    background-image: url(fotos/foto3.1.jpg);
+}
+
+.foto7{
+    background-image: url(fotos/foto1.1.jpg);
+}
+
+.foto8{
+    background-image: url(fotos/foto2.1.jpg);
+}
+
+
+h1{
+    font-size: 5vh;
+    padding-top: 21.5vh;
+}
+/* ----------- media queries -------------------------------------*/
+
+@media screen and (min-width: 1600px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+}
+
+
+@media screen and (max-width: 1100px) {
+
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+
+}
+
+@media screen and (max-width: 950px) {
+    p{
+        width: 38.5vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+
+}
+
+@media screen and (max-width: 850px) {
+
+
+ }
+
+@media screen and (max-width: 830px) { 
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+      }
+
+@media screen and (max-width: 730px) {
+
+}
+
+@media screen and (max-width: 750px) {
+
+ }
+
+@media screen and (max-width: 700px) {
+  .container figure{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+    
+    
+ }
+
+@media screen and (max-width: 650px) {
+    .hoofdingafb{
+        
+    }
+
+    
+ }
+
+@media screen and (max-width: 450px) {
+    
+ }
+
+
+
+
