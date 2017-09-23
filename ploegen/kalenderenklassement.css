@@ -1,0 +1,96 @@
+body {
+    animation: fade-in 1.2s;
+    max-width: 100%;
+  overflow-x: hidden;
+    background-color: rgb(242,245,245);
+}
+
+@keyframes fade-in{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+
+/* ----------- tekst -------------------------------------*/
+
+
+/* ----------- kader -------------------------------------*/
+
+#team_container{
+    border: 1px solid red;
+}
+
+#ranking_container{
+    border: 1px solid blue;
+}
+
+#matches_container{
+    border: 1px solid green;
+}
+/* ----------- hover lijn -------------------------------------*/
+
+/* Slide In, Slide Off */
+.sliding-u-l-r-l {
+    position: relative;
+    padding-bottom: 1px;
+}
+.sliding-u-l-r-l:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background .6s ease;
+}
+.sliding-u-l-r-l:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: white;
+    transition: width .4s ease;
+}
+.sliding-u-l-r-l:hover:before {
+    width: 100%;
+    background: white;
+    transition: width .4s ease;
+}
+.sliding-u-l-r-l:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+/* ----------- navigatie -------------------------------------*/
+.container figure {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2.s ease-in-out;
+}
+.container figure:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+/* ----------- mouse -------------------------------------*/
+
+/* ----------- logo -------------------------------------*/
+
+
+/* ----------- section1 -------------------------------------*/
+
+/* ----------- media queries -------------------------------------*/
+
+@media screen and (min-width: 1600px) {
+
+}
+
+
+
+
+
