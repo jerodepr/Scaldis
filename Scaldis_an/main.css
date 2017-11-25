@@ -1,0 +1,289 @@
+body{
+    box-sizing: border-box;
+    
+    font-family: "helvetica";
+    
+}
+
+.relative{
+    position: relative;
+}
+
+.center{
+    display: flex;
+    align-self: center;
+}
+
+/* ---------------------------------- typo--------------------------------- */
+
+h3{ 
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    
+    text-align: center;
+    color: white;
+    width: 10vw;
+}
+
+h2{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    
+    color: white;
+}
+
+
+/* ---------------------------------- menu --------------------------------- */
+
+
+/* ---------------------------------- contact --------------------------------- */
+.contact{
+    width: 10vh;
+    height: 10vh;
+    position: fixed;
+    
+    top: 0px;
+    right: 0px;
+    
+    background-color: #8bc53f;
+    
+    display: flex;
+}
+
+.contact h3{
+    width: 10vh;
+    font-size: 1em;
+}
+
+
+/* ---------------------------------- logo --------------------------------- */
+
+.logo{
+    width: 6vw;
+    position: fixed;
+    
+    top: 2vw;
+    left: 5vh;
+}
+
+
+/* ---------------------------------- grid --------------------------------- */
+.grid{
+    height: 60vh;
+    width: 70vw;
+    position: relative;
+    
+    margin-left: 15vw;
+    margin-top: 20vh;
+}
+
+/* ---------------------------------- kalender --------------------------------- */
+.kalender{
+    height: 60vh;
+    width: 35vw;
+    position: absolute;
+    
+    left: 0px;
+    top: 0px;
+    
+    background-color: #b2b2b2;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.tkstKalender{
+    position: absolute;
+    top: 55vh;
+    left: 2vh;
+    
+}
+
+/* ---------------------------------- ploegen --------------------------------- */
+.ploegen{
+    height: 40vh;
+    width: 25vw;
+    position: absolute;
+    
+    left: 35vw;
+    top: 0px;
+    
+    background-color: #8bc53f;
+    border: 5px solid white;
+    box-sizing: border-box;
+    
+}
+
+.fotoSpeler{
+    position: absolute;
+    height: 30vh;
+    
+    top: -20px;
+    right: 0px;
+    
+}
+
+.tkstPloegen{
+    position: absolute;
+    top: 35vh;
+    left: 2vh;
+}
+
+
+/* ---------------------------------- news --------------------------------- */
+
+.news{
+    height: 20vh;
+    width: 35vw;
+    position: absolute;
+    
+    right: 0px;
+    bottom: 0px;
+    
+    background-color: #b2b2b2;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.tkstNieuws{
+    position: absolute;
+    top: 15vh;
+    left: 2vh;
+    
+}
+
+
+/* ---------------------------------- info--------------------------------- */
+
+
+.info{
+    height: 20vh;
+    width: 10vw;
+    position: absolute;
+    
+    right: 0px;
+    top: 0px;
+    
+    background-color: #e5e5e5;
+    border: 5px solid white;
+    box-sizing: border-box;
+    
+    display: flex;
+}
+
+/* ---------------------------------- inschrijvingen --------------------------------- */
+.inschrijvingen{
+    height: 20vh;
+    width: 10vw;
+    position: absolute;
+    
+    right: 0px;
+    top: 20vh;
+    
+    background-color: #cbcbcb;
+    border: 5px solid white;
+    box-sizing: border-box;
+    
+    display: flex;
+}
+
+/* ---------------------------------- hover --------------------------------- */
+
+a .kalender:hover{
+    background-color: #8bc53f;
+     /* Firefox */
+    -moz-transition: all 1s linear;
+    /* WebKit */
+    -webkit-transition: all 1s linear;
+    /* Opera */
+    -o-transition: all 1s linear;
+    /* Standard */
+    transition: all 1s linear;
+    
+}
+
+a .news:hover{
+    background-color: #8bc53f;
+     /* Firefox */
+    -moz-transition: all 0.1s linear;
+    /* WebKit */
+    -webkit-transition: all 0.1s linear;
+    /* Opera */
+    -o-transition: all 0.1s linear;
+    /* Standard */
+    transition: all 0.1s linear;
+    
+}
+
+a .info:hover{
+    background-color: #8bc53f;
+     /* Firefox */
+    -moz-transition: all 0.1s linear;
+    /* WebKit */
+    -webkit-transition: all 0.1s linear;
+    /* Opera */
+    -o-transition: all 0.1s linear;
+    /* Standard */
+    transition: all 0.1s linear;
+    
+}
+
+a .inschrijvingen:hover{
+    background-color: #8bc53f;
+     /* Firefox */
+    -moz-transition: all 0.5s linear;
+    /* WebKit */
+    -webkit-transition: all 0.5s linear;
+    /* Opera */
+    -o-transition: all 0.5s linear;
+    /* Standard */
+    transition: all 0.5s linear;
+    
+}
+
+
+
+
+
+
+/* ---------------------------------- social --------------------------------- */
+
+
+/* ---------------------------------- mediaquerries --------------------------------- */
+
+
+
+@media screen and (max-width: 1500px) {
+
+ }
+
+@media screen and (max-width: 1350px) { 
+
+}
+
+@media screen and (max-width: 1200px) { 
+
+}
+
+
+@media screen and (max-width: 1050px) { 
+
+}
+
+@media screen and (max-width: 900px) { 
+ 
+}
+
+@media screen and (max-width: 600px) { 
+}
+
+@media screen and (max-width: 500px) { 
+
+}
+
+@media screen and (max-width: 450px) { 
+  
+}
+
+
+
+
